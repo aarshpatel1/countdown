@@ -11,7 +11,7 @@ startBtn.on("click", function () {
     let customTime = document.querySelector("#countdown").value
     if (customTime) {
         console.log(customTime)
-        countdown = customTime + 1
+        countdown = customTime
     }
     start = setInterval(() => {
         if (countdown > 0) {
